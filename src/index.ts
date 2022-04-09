@@ -7,8 +7,6 @@ export const getTimeSlots = (
 ) => {
   const from = startTime;
   const to = endTime;
-  console.log('from', from);
-  console.log('to', to);
 
   const step = (x: Date): Date => addMinutes(x, interval);
 
