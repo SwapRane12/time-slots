@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -34,16 +34,7 @@
   "name": "time-slots-date-fns",
   "author": "SwapRane12",
   "module": "dist/time-slots.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/time-slots.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/time-slots.esm.js",
-      "limit": "10 KB"
-    }
-  ],
+
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
     "date-fns": "^2.28.0",
