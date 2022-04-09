@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "time-slots",
+  "name": "time-slots-date-fns",
   "author": "SwapRane12",
   "module": "dist/time-slots.esm.js",
   "size-limit": [
